@@ -1,0 +1,19 @@
+.hotel-card{
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#customer-info{
+    margin: 2%;
+}
+
+#payment-info{
+    margin: 2%;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 1% 2%;
+}

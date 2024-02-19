@@ -4,6 +4,7 @@
         <title>Detail</title>
         <script src="./scripts/detail.js" ></script>
         <link rel="stylesheet" href="./styles/common.css" />
+        <link rel="stylesheet" href="./styles/detail.css" />
     </head>
     <body>
         <div class="container">
@@ -13,8 +14,7 @@
             </header>
             <div>
                 <img class="hotel-image" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"/>
-                <br/>
-                <form action="payment.html" method="get">
+                <form action="payment.html" method="get" id="details-form">
                     <label for="adult">Adults:</label>
                     <input type="number" min="1" name="adult" id="adult" placeholder="1" value="1">
                     <br/>
@@ -32,19 +32,21 @@
                     <br/>
                     <button>Book now</button>
                 </form>
-                <h2>Radisson Blu Hotel</h2>
-                <p>RATING</p>
-                <p>5 Star</p>
-                <p>AMENITIES<p>
-                <ul>
-                    <li>Room Service</li>
-                    <li>Restaurant</li>
-                    <li>Bussiness center</li>
-                    <li>Fitness center</li>
-                    <li>Pool</li>
-                </ul>
-                <h5>DESCRIPTION</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse necessitatibus corrupti distinctio dolore voluptatem totam reiciendis in eos voluptas, non accusamus commodi animi illo laboriosam eius repellendus, recusandae excepturi unde.</p>
+                <div id="hotel-details">
+                    <h2>Radisson Blu Hotel</h2>
+                    <p>RATING</p>
+                    <p>5 Star</p>
+                    <p>AMENITIES<p>
+                    <ul>
+                        <li>Room Service</li>
+                        <li>Restaurant</li>
+                        <li>Bussiness center</li>
+                        <li>Fitness center</li>
+                        <li>Pool</li>
+                    </ul>
+                    <h5>DESCRIPTION</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse necessitatibus corrupti distinctio dolore voluptatem totam reiciendis in eos voluptas, non accusamus commodi animi illo laboriosam eius repellendus, recusandae excepturi unde.</p>
+                </div>
             </div>
             <footer>
                 <a href="./contact.html">Contact Us</a>
