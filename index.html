@@ -3,19 +3,20 @@
     <head>
         <title>Index</title>
         <script src="./scripts/index.js" ></script>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/common.css" />
         <link rel="stylesheet" href="./styles/index.css" />
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <header>
                 <img src="./assests/images/logo.png" alt="logo" class="header-logo"/>
-                <a href="./login.html" >Login</a>
+                <a href="./login.html">Login</a>
             </header>
             <div id="main">
                 <div id="main-search">
                     <form>
-                        <input type="text" placeholder="City" >
+                        <input type="text" placeholder="City">
                     </form>
                 </div>
                 <div id="main-images">
@@ -24,16 +25,21 @@
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" class="content-images" alt="Charminar"/>
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" class="content-images" alt="Kolkata"/>
                 </div>
-                <a href="#">View more >></a>
+                <div id="view_more">
+                    <a href="#" >View more >></a>
+                </div>
             </div>
             <footer>
-                <a href="./contact.html">Contact Us</a>
-                <br/>
-                <a href="https://www.facebook.com" target="_blank"><img src="./assests/images/facebook.png" class="footer-images" alt="Facebook"/></a>
-                <a href="https://www.instagram.com" target="_blank"><img src="./assests/images/instagram.png" class="footer-images" alt="Instagram"/></a>
-                <a href="https://twitter.com" target="_blank"><img src="./assests/images/twitter.png" class="footer-images" alt="Twitter"/></a>
-                <br/>
-                &copy; 2020 ROOM SEARCH PVT. LTD.
+                <a href="./contact.html" id="contact">Contact Us</a>
+                <div>
+                    <br/>
+                    <span id="copy">&copy; 2020 ROOM SEARCH PVT. LTD.</span>
+                </div>
+                <div id="links">
+                    <a href="https://www.facebook.com" target="_blank"><img src="./assests/images/facebook.png" class="footer-images" alt="Facebook"/></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="./assests/images/instagram.png" class="footer-images" alt="Instagram"/></a>
+                    <a href="https://twitter.com" target="_blank"><img src="./assests/images/twitter.png" class="footer-images" alt="Twitter"/></a>
+                </div>
             </footer>
         </div>
     </body>
