@@ -11,8 +11,8 @@
     <body>
         <div class="container-fluid">
             <header>
-                <a href="index.html"><img src="./assests/images/logo.png" class="header-logo" alt="logo"/></a>
-                <a href="./login.html">Login</a>
+                <a href="index.html"><img src="./assests/images/logo.png" alt="logo" class="header-logo"/></a>
+                <a href="./login.html" class="login-btn">Login</a>
             </header>
             <div id="list-view">
                 <div class="row mt-3 mx-0" id="list-view-head">
@@ -23,47 +23,50 @@
                         <a href="#map-view">Map View</a>
                     </div>
                 </div>
-                <div class="row row-cols-2 mx-auto">
-                    <div class="hotel-card col px-0">
-                        <a href="./detail.html">
-                            <div>
-                                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="hotel-images" alt="Radisson Blu Hotel"/>
+                <div class="mx-auto cards-container">
+                    <!-- <div > -->
+                        <a href="./detail.html" class="hotel-card">
+                            <!-- <div> -->
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="hotel-images" alt="Radisson Blu Hotel"/>
+                            <span class="hotel-details">
                                 <h3>Radisson Blu Hotel</h3>
                                 <p>5 Star</p>
                                 <p>New Delhi</p>
-                            </div>
+                            </span>
+                            <!-- </div> -->
                         </a>
-                    </div>
-                    <div class="hotel-card col px-0">
+                    <!-- </div> -->
+                    <div class="hotel-card">
                         <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit New Delhi" class="hotel-images"/>
-                        <h3>The Lalit New Delhi</h3>
-                        <p>4.5 Star</p>
-                        <p>New Delhi<p>
+                        <span class="hotel-details">
+                            <h3>The Lalit New Delhi</h3>
+                            <p>4.5 Star</p>
+                            <p>New Delhi<p>
+                            </span>
                     </div>
-                    <div class="hotel-card col px-0">
+                    <div class="hotel-card">
                         <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"  alt="Taj Palace" class="hotel-images"/>
-                        <h3>Taj Palace</h3>
-                        <p>4.0 Star</p>
-                        <p>New Delhi</p>
+                        <div class="hotel-details">
+                            <h3>Taj Palace</h3>
+                            <p>4.0 Star</p>
+                            <p>New Delhi</p>
+                        </div>
                     </div>
-                </div>
-                <div id="map-view">
-                    <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="logo"/>
-                    <p>MAP VIEW</p>
                 </div>
             </div>
+            <div id="map-view">
+                <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="logo"/>
+                <p>MAP VIEW</p>
+            </div>
             <footer>
-                <a href="./contact.html" id="contact">Contact Us</a>
-                <div>
-                    <br/>
-                    <span id="copy">&copy; 2020 ROOM SEARCH PVT. LTD.</span>
-                </div>
-                <div id="links">
+                <a href="./contact.html" class="contact">Contact Us</a>
+                <span class="copy-right">&copy; 2020 ROOM SEARCH PVT. LTD.</span>
+                <span class="links">
                     <a href="https://www.facebook.com" target="_blank"><img src="./assests/images/facebook.png" class="footer-images" alt="Facebook"/></a>
                     <a href="https://www.instagram.com" target="_blank"><img src="./assests/images/instagram.png" class="footer-images" alt="Instagram"/></a>
                     <a href="https://twitter.com" target="_blank"><img src="./assests/images/twitter.png" class="footer-images" alt="Twitter"/></a>
-                </div>
+                </span>
             </footer>
         </div>
-    </body>
+    </body>
 </html>

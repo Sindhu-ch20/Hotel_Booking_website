@@ -15,7 +15,6 @@ footer{
 header{
     position: sticky;
     top: 0;
-    padding-right: 1%;
 }
 
 header, footer{
@@ -31,11 +30,19 @@ header a, footer a {
     color: black;
 }
 
-footer #contact, footer #links{
-    padding: 1%;
+header .login-btn, footer .links {
+    margin-right: 2%;
 }
 
-footer #copy{
+footer .contact{
+    margin-left: 2%;
+}
+
+footer{
+    padding: 1% 0;
+}
+
+footer .copy-right{
     font-size: 10px;
     padding-bottom: 0;
 }
@@ -53,6 +60,7 @@ footer #copy{
 .header-logo{
     height: 60px;
     width: 60px;
+    margin-left:1%;
 }
 
 .hotel-image{

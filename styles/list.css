@@ -5,8 +5,21 @@
 
 .hotel-card{
     margin: 2% 5%;
-    background-color: rgb(132,136,139);
+    background-color: lightgrey;
     width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+
+.hotel-details{
+    margin: 3%;
+}
+
+.cards-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #list-view-head a{
@@ -14,5 +27,5 @@
 }
 
 #map-view{
-    display: none;
+    display:none;
 }

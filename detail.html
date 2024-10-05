@@ -9,56 +9,62 @@
     <body>
         <div class="container-fluid">
             <header>
-                <a href="index.html"><img src="./assests/images/logo.png" class="header-logo" alt="logo"/></a>
-                <a href="./login.html">Login</a>
+                <a href="index.html"><img src="./assests/images/logo.png" alt="logo" class="header-logo"/></a>
+                <a href="./login.html" class="login-btn">Login</a>
             </header>
-            <div>
-                <img class="hotel-image" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"/>
-                <form action="payment.html" method="get" id="details-form">
-                    <label for="adult">Adults:</label>
-                    <input type="number" min="1" name="adult" id="adult" placeholder="1" value="1">
-                    <br/>
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" id="name" required>
-                    <br/>
-                    <label for="from_date">From Date:</label>
-                    <input type="date" name="fromDate" id="from_date" required>
-                    <br/>
-                    <label for="to_date">To Date:</label>
-                    <input type="date" name="toDate" id="to_date" required >
-                    <br/>
-                    <label for="total">Total:</label>
-                    <input type="number" name="price" id="total" readonly>
-                    <br/>
-                    <button>Book now</button>
-                </form>
-                <div id="hotel-details">
-                    <h2>Radisson Blu Hotel</h2>
-                    <p>RATING</p>
-                    <p>5 Star</p>
-                    <p>AMENITIES<p>
-                    <ul>
-                        <li>Room Service</li>
-                        <li>Restaurant</li>
-                        <li>Bussiness center</li>
-                        <li>Fitness center</li>
-                        <li>Pool</li>
-                    </ul>
-                    <h5>DESCRIPTION</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse necessitatibus corrupti distinctio dolore voluptatem totam reiciendis in eos voluptas, non accusamus commodi animi illo laboriosam eius repellendus, recusandae excepturi unde.</p>
+            <div class="hotel-form-container">
+                <div id="hotel-image">
+                    <img class="hotel-image" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"/>
                 </div>
+                <form action="payment.html" method="get" id="details-form">
+                    <div class="hotel-form-card">
+                        <label for="adult">Adults:</label>
+                        <input type="number" min="1" name="adult" id="adult" placeholder="1" value="1">
+                    </div>
+                    <div class="hotel-form-card">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="hotel-form-card">
+                        <label for="from_date">From Date:</label>
+                        <input type="date" name="fromDate" id="from_date" required>
+                    </div>
+                    <div class="hotel-form-card">
+                        <label for="to_date">To Date:</label>
+                        <input type="date" name="toDate" id="to_date" required >
+                    </div>
+                    <div class="hotel-form-card">
+                        <label for="total">Total:</label>
+                        <input type="number" name="price" id="total" readonly>
+                    </div>
+                    <div class="hotel-form-card">
+                        <button id="book-now">Book now</button>
+                    </div>
+                </form>
+            </div>
+            <div id="hotel-details">
+                <h2>Radisson Blu Hotel</h2>
+                <h5 class="font-cursive">RATING</h5>
+                <p>5 Star</p>
+                <h5 class="font-cursive">AMENITIES</h5>
+                <ul>
+                    <li>Room Service</li>
+                    <li>Restaurant</li>
+                    <li>Bussiness center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </ul>
+                <h5 class="font-cursive">DESCRIPTION</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse necessitatibus corrupti distinctio dolore voluptatem totam reiciendis in eos voluptas, non accusamus commodi animi illo laboriosam eius repellendus, recusandae excepturi unde.</p>
             </div>
             <footer>
-                <a href="./contact.html" id="contact">Contact Us</a>
-                <div>
-                    <br/>
-                    <span id="copy">&copy; 2020 ROOM SEARCH PVT. LTD.</span>
-                </div>
-                <div id="links">
+                <a href="./contact.html" class="contact">Contact Us</a>
+                <span class="copy-right">&copy; 2020 ROOM SEARCH PVT. LTD.</span>
+                <span class="links">
                     <a href="https://www.facebook.com" target="_blank"><img src="./assests/images/facebook.png" class="footer-images" alt="Facebook"/></a>
                     <a href="https://www.instagram.com" target="_blank"><img src="./assests/images/instagram.png" class="footer-images" alt="Instagram"/></a>
                     <a href="https://twitter.com" target="_blank"><img src="./assests/images/twitter.png" class="footer-images" alt="Twitter"/></a>
-                </div>
+                </span>
             </footer>
         </div>
     </body>
