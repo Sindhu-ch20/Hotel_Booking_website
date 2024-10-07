@@ -10,10 +10,6 @@
     max-height: 350px;
 }
 
-body{
-    margin-bottom: 5em;
-}
-
 .hotel-form-container{
     display:flex;
     flex-direction: row;
@@ -28,35 +24,28 @@ body{
     text-align: center;
     width: 75%;
     border: 1px solid black;
+    height: 400px;
 }
 
 .hotel-form-card{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 
 .hotel-form-container #details-form {
     border: 1px solid black;
-    height: 398px;
+    height: 400px;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: stretch;
     width: 25%;
+    padding: 0 2%;
 }
  
 .hotel-form-container #details-form input{
     width: 60%;
-}
-
-#hotel-details .font-cursive {
-    font-family: cursive;
-}
-
-#book-now {
-    padding: 2%;
-    text-wrap: nowrap;
 }

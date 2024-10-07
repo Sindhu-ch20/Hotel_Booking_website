@@ -22,10 +22,14 @@
     flex-wrap: wrap;
 }
 
-#list-view-head a{
-    font-weight: bold;
-}
-
 #map-view{
     display:none;
+}
+
+.btn-text {
+    border: none;
+}
+
+.hotel-card:hover {
+    background-color: rosybrown;
 }
