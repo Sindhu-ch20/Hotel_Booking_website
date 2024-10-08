@@ -8,7 +8,7 @@ body{
 
 footer{
     width: 100%;
-    position: fixed; /* Fix the footer to the bottom */
+    position: fixed;
     bottom: 0;
 }
 
@@ -70,11 +70,6 @@ footer .copy-right{
     height: 60px;
     width: 60px;
     margin-left:1%;
-}
-
-.hotel-image{
-    width: 500px;
-    height: 500px;
 }
 
 a{
